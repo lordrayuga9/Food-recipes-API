@@ -203,6 +203,7 @@ body{
     justify-content: center;
     align-items: center;
     opacity:0.7;
+    cursor:pointer;
 }
 
 .recipe-title{
