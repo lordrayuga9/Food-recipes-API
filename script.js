@@ -10,6 +10,11 @@ const recipeCloseBtn = document.getElementById("recipe-close-btn");
 // Event Listeners
 
 searchBtn.addEventListener("click", getMealList);
+document.getElementById("search-input").addEventListener("keyup", function(event){
+    if(event.key=="Enter"){
+        getMealList();
+    }
+})
 recipeCloseBtn.addEventListener("click", toggleDisplay);
 
 
